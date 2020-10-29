@@ -7,7 +7,7 @@ const ResultsDetail = ({
   return (
     <View style={styles.container}>
       <Image style={styles.imageStyle} source={{ uri: image_url }} />
-      <Text>{name}</Text>
+      <Text style={styles.name}>{name}</Text>
       <Text>
         {rating} Stars, {review_count}
       </Text>
